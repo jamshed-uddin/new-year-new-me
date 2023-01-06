@@ -6,24 +6,122 @@
 
 /*=====   banner  =======  */
 .banner {
-    width: 1600px;
-    height: 808px;
+    width: 100vw;
+    height: 100vh;
     background-image: url(images/banner/banner1.png);
+    background-size: cover;
     text-align: right;
    
 }
 
 .banner-container{
-    padding-right: 50px;
+    padding:180px 80px 0 50%;
 }
 .banner-title{
-    font-size: 60px;
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    padding-bottom: 20px;
 
 }
 
-
+.banner-description{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #444343;
+    padding: 0 0 20px 80px;
+}
+.banner-btn{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F15B22;
+}
 /* main */
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+/* === previous year section*/
+
+.section1-container{
+    display: flex;
+    /* gap: 80px; */
+    align-items: center;
+    padding: 130px 0;
+}
+
+.section1-detail{
+    margin-right: 150px;
+    padding-left: 80px;
+}
+
+.section1-title{
+    color: #151414;
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+.section1-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.section1-list{
+    color: #151414b9;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+/* ==  plans section */
+
+.plan-section{
+    text-align: center;
+
+}
+
+.plan-title{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plan-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:113px;
+   
+}
+
+.plan{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px -2px #80808061;
+    transition: 0.4s;
+}
+
+.plan:hover{
+    box-shadow: 0 5px 4px -2px #808080;
+
+}
+
+.plan img{
+    padding-top: 20px;
+}
+.plan  h2{
+    font-size: 30px;
+    color: #151414;
+    padding: 20px 0 16px 0 ;
+   
+}
+
+.plan p{
+    color: #737272;
+    padding-bottom: 10px;
 }
