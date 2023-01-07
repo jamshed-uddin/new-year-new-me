@@ -17,7 +17,7 @@
 .banner-container{
     height: 100%;
    margin:0 90px 0 700px;
-   padding-top: 190px;
+   padding-top: 160px;
 }
 
 .banner-title{
@@ -49,7 +49,7 @@
 
 /* ------main------ */
 main{
-    max-width: 1140px;
+    max-width: 1083px;
     margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ main{
 }
 
 .section1-detail{
-    margin: 50px 80px 0 170px;
+    margin: 50px 70px 0 140px;
 }
 
 .section1-title{
