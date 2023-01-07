@@ -15,7 +15,9 @@
 }
 
 .banner-container{
-    padding:180px 80px 0 50%;
+    height: 100%;
+   margin:0 90px 0 50%;
+   padding-top: 190px;
 }
 .banner-title{
     color: #151414;
@@ -50,14 +52,14 @@ main{
 
 .section1-container{
     display: flex;
-    /* gap: 80px; */
+    /* gap: 100px; */
     align-items: center;
-    padding: 130px 0;
+   margin: 130px 0;
 }
 
 .section1-detail{
-    margin-right: 150px;
-    padding-left: 80px;
+    /* margin-right: 150px; */
+    margin: 50px 80px 0 170px;
 }
 
 .section1-title{
@@ -102,7 +104,7 @@ main{
 .plan{
     width: 300px;
     border-radius: 5px;
-    box-shadow: 0 2px 3px -2px #80808061;
+    box-shadow: 0 1px 2px 0px #80808061;
     transition: 0.4s;
 }
 
@@ -124,4 +126,53 @@ main{
 .plan p{
     color: #737272;
     padding-bottom: 10px;
+    
 }
+
+/* mini banner section */
+
+.mini-banner{
+    height: 301px;
+    margin-bottom: 130px;
+    background:  linear-gradient(to right,#F15B22, #00000000), url(images/watch.png);
+    /* background-size: cover; */
+    border-radius: 5px;
+}
+
+.mini-banner-container{
+
+    width: 459px; 
+    padding: 65px 0 60px 65px;
+}
+.mini-banner-text{
+    color: #ffffff;
+
+    font-size: 40px;
+    font-weight: 700;
+   
+}
+
+.mini-banner-btn{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    padding: 15px 20px;
+}
+
+
+.foot-container{
+    height: 577px;
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+ 
+
+
